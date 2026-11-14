@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: taskmanager/backend:latest
+          image: moahmedtrigui/task-manager-backend:ec34ddb
           ports:
             - containerPort: 5000
           envFrom:

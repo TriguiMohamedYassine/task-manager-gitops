@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: taskmanager/frontend:latest
+          image: moahmedtrigui/task-manager-frontend:ec34ddb
           ports:
             - containerPort: 80
           livenessProbe:
